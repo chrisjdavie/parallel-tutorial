@@ -17,7 +17,7 @@ def rand_string(length, output):
                     string.ascii_lowercase
                     + string.ascii_uppercase
                     + string.digits)
-               for i in range(length))
+               for _ in range(length))
     output.put(rand_str)
 
 # Setup a list of processes that we want to run
